@@ -2,6 +2,8 @@
 Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front end or sdrplay device.
 Since 3.0, It comes with a database backend : acarsserv to store received acars messages. (See acarsserv chapter below).
 
+This is a fork of acarsdec for my personal use. The head has been reset to an old commit from 2018, before TLeconte's acarsdec project added libacars support and used CMake. It may be improved upon at some point in the future and likewise further functionality that I do not need may be removed. 
+
 ## Features :
 
  * up to 8 channels decoded simultaneously
